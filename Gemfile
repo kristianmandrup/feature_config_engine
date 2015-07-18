@@ -11,8 +11,9 @@ gemspec
 # your gem to rubygems.org.
 
 # To use debugger
+gem 'active_model_serializers', '~> 0.9.3'
+
 group :development do
   # gem 'nobrainer',                '~> 0.27.0'
-  gem 'active_model_serializers', '~> 0.9.3'
   gem 'feature-config', github: 'kristianmandrup/feature-config', branch: 'master'
 end
